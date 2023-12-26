@@ -12,6 +12,7 @@ public class Demo2 {
 	public void iosPostcreation(String userName, String password) {
 		System.out.println("This is iOS test case for Post Creation");
 		System.out.println(userName+"    "+password);
+		System.out.println("This is repository owner code");
 	}
 	
 	@Test(dataProvider="getData")
