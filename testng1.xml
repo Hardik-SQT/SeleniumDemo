@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Selenium.WebDriver.Listeners"/>
+	</listeners>	
+	<parameter name="URL" value="https://google.com"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Selenium.WebDriver.TestNGDemo"/>
+      <class name="testNgAnnotations.Demo4"/>
+      <class name="testNgAnnotations.Demo3"/>
+      <class name="testNgAnnotations.Demo2"/>
+      <class name="testNgAnnotations.Demo1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
